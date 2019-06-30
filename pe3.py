@@ -8,11 +8,11 @@ or find the inverse of the smallest prime factor of 600851475143 in the range of
 
 @author: Achint the BIG DAWG!!
 """
-
+n = 600851475143
 l = 0 
-for i in range(2,600851475143):
-    if (600851475143 % i == 0):
-        l = 600851475143 / i 
+for i in range(2,n):
+    if (n % i == 0):
+        l = n / i 
         break;
 
 print(l)
