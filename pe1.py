@@ -3,14 +3,16 @@
 """
 Created on Sun Jun 30 16:18:36 2019
 
-@author: User
+@author: Achint the BIG DAWG!!!
 """
 
 import os 
 import pandas as pd
 
-
-a = set(range(3,1000,3))
-b = set(range(5,1000,5))
+n = 1000
+a = set(range(3,n,3))
+b = set(range(5,n,5))
 c = a.union(b)
 print(sum(c))
+
+#233168
